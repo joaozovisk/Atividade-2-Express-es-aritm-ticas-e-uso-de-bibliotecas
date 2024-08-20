@@ -1,0 +1,11 @@
+programa
+{
+    funcao inicio()
+    {
+        // Calcula o número de minutos em uma década (10 anos)
+        inteiro minutosDecada = 10 * 365 * 24 * 60
+        
+        // Exibe o resultado
+        escreva("Minutos em uma década: ", minutosDecada)
+    }
+}
