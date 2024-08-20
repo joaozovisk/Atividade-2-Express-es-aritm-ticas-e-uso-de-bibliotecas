@@ -1,0 +1,17 @@
+programa
+{
+    funcao inicio()
+    {
+        // Defina a sua idade em anos
+        inteiro idadeAnos = 25 // Substitua 25 pela sua idade
+        
+        // Calcula o número de segundos em um ano (365 dias)
+        inteiro segundosAno = 365 * 24 * 60 * 60
+        
+        // Calcula a idade em segundos
+        inteiro idadeSegundos = idadeAnos * segundosAno
+        
+        // Exibe o resultado
+        escreva("Minha idade em segundos: ", idadeSegundos)
+    }
+}
