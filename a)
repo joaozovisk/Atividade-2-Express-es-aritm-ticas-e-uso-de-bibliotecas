@@ -1,0 +1,11 @@
+programa
+{
+    funcao inicio()
+    {
+        // Calcula o número de horas em um ano (365 dias)
+        inteiro horasdoworld = 365 * 24
+        
+        // Exibe o resultado
+        escreva("Horas em um ano: ", horasdoworld)
+    }
+}
