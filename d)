@@ -1,0 +1,24 @@
+programa
+{
+    funcao inicio()
+    {
+        // Define a quantidade de chocolates que você come por ano
+        inteiro chocolatesbarraPorAno = 30 // Substitua 100 pela quantidade correta
+        
+        // Define a quantidade de anos que você pretende viver
+        inteiro anosDeVida = 100 // Substitua 80 pela quantidade correta
+        
+        // Calcula o total de chocolates que você vai comer na vida
+        inteiro totalChocolatesbarra = chocolatesbarraPorAno * anosDeVida
+        
+        // Simula uma demora na computação
+        inteiro contador = 0
+        para (inteiro i = 0; i < 100000000; i++)
+        {
+            contador = contador + i
+        }
+        
+        // Exibe o resultado
+        escreva("Você pretende comer ", totalChocolatesbarra, " chocolates na vida.")
+    }
+}
