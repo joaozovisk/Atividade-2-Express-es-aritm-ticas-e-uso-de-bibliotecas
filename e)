@@ -1,0 +1,17 @@
+programa
+{
+    funcao inicio()
+    {
+        // Define a idade em segundos
+        real idadeEmSegundos = 537547200.0
+        
+        // Número de segundos em um ano (considerando 365,25 dias por ano)
+        real segundosPorAno = 365.25 * 24 * 60 * 60
+        
+        // Calcula a idade em anos
+        real idadeEmAnos = idadeEmSegundos / segundosPorAno
+        
+        // Exibe o resultado
+        escreva("Sua idade em anos (537.547.200 segundos) é aproximadamente: ", idadeEmAnos)
+    }
+}
