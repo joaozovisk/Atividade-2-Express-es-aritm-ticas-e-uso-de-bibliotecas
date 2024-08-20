@@ -1,0 +1,23 @@
+programa
+{
+    funcao inicio()
+    {
+        // Define a idade em segundos
+        real idadeEmSegundos = 537547200.0
+        
+        // Número de segundos em um ano terrestre
+        real segundosPorAnoTerrestre = 31557600.0
+        
+        // Período orbital de Mercúrio em anos terrestres
+        real periodoOrbitalMercurio = 0.2408467
+        
+        // Calcula a idade em anos terrestres
+        real idadeEmAnosTerrestres = idadeEmSegundos / segundosPorAnoTerrestre
+        
+        // Calcula a idade em Mercúrio
+        real idadeEmMercurio = idadeEmAnosTerrestres / periodoOrbitalMercurio
+        
+        // Exibe o resultado
+        escreva("Sua idade em Mercúrio (537.547.200 segundos) é aproximadamente: ", idadeEmMercurio)
+    }
+}
