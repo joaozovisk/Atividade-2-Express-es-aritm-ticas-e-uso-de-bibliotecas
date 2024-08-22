@@ -1,0 +1,15 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro idade, soma
+
+        escreva("Informe a sua idade atual: ")
+        leia(idade)
+
+        // Calcula a soma de todas as idades de 1 até a idade fornecida
+        soma = idade * (idade + 1) / 2
+
+        escreva("A soma das idades de 1 até ", idade, " é ", soma, " anos.")
+    }
+}
