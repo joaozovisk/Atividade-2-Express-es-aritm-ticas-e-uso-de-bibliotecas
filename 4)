@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+		real resto
+    		inteiro pedacos, tabua
+ 
+ 			escreva("Quanto mede em metros a sua tábua? ")
+			leia(tabua)
+
+			tabua = tabua * 100
+			pedacos = tabua / 45
+			resto = tabua % 45
+
+		escreva("A tábua terá ", pedacos, " pedaços e sobrarão ", resto, " centimetros.")
+
+	}
+}
