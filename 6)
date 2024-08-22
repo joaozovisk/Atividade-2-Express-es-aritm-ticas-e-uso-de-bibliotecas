@@ -1,0 +1,14 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro minutos, tempo_horas
+
+		minutos = 5*6*48
+		tempo_horas = minutos / 60
+
+		escreva("Ao fim de um ano você terá dedicado ", tempo_horas, " horas em seu livro.")
+		
+	}
+}
