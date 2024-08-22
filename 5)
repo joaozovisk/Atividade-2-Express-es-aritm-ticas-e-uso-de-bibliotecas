@@ -1,0 +1,19 @@
+programa
+{
+	inclua biblioteca Matematica --> mat
+ 
+	
+	funcao inicio()
+	{
+	real b, c, valor, raiz
+	
+	b = 11.5
+	c = 6.3
+	
+	valor = b*b + c*c
+	raiz = mat.raiz(valor, 2.0)
+	
+	escreva("O valor mínimo para a instalação é ",raiz, " metros de fio.")
+	
+	}
+}
