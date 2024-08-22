@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real tamanho_arq, velocidade, tempo
+
+		escreva("Informe qual o peso em MB do arquivo: ")
+		leia(tamanho_arq)
+
+		escreva("Qual a velocidade em Mbps do seu wifi? ")
+		leia(velocidade)
+
+		velocidade = velocidade*60
+		tempo = (velocidade / tamanho_arq) / 60
+
+		escreva("O tempo aproximado de download é de ", tempo," minutos.")
+	}
+}
